@@ -16,6 +16,13 @@ body {
   position: relative;
   background: transparent;
 }
+.round-image {
+  width: 100px;         /* Set a fixed width */
+  height: 100px;        /* Set the same height to create a square */
+  border-radius: 50%;   /* Make it a circle */
+  object-fit: cover;    /* Ensures the image scales properly within the circle */
+  border: 2px solid #ccc; /* Optional: Add a border */
+}
 
 body::before {
   content: "";
